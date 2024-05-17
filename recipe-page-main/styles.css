@@ -48,8 +48,8 @@ body {
     background-color: var(--Rose-white);
     min-height: 100vh;
     max-width: 350px;
-    margin: 50px auto;
-    align-items: center;
+    margin: auto;
+    text-align: center;
     justify-content: center;
     
 }
