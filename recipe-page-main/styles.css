@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: var(--Soft-blue);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* Colors */
+
+/* Primary */
+
+:root {
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Dark-Raspberry: hsl(332, 51%, 32%);
+
+/* Neutral */
+
+    --White: hsl(0, 0%, 100%);
+    --Rose-white: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light-grey: hsl(30, 18%, 87%);
+    --Wenge-brown: hsl(30, 10%, 34%);
+    --Dark-charcoal: hsl(24, 5%, 18%);
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* background */
+
+.container {
+    background-color: var(--Rose-white);
+    min-height: 100vh;
+    max-width: 350px;
+    margin: 50px auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card {
+    background-color: var(--White);
+    border-radius: 15px;
+    margin: 2rem 1rem;
+}
+
+.recipe-image {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
