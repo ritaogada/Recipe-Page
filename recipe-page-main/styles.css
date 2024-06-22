@@ -178,6 +178,6 @@ td {
 
 @media (max-width: 375px) {
     .container {
-        margin: 0px;
+        margin: 10px;
     }
 }
