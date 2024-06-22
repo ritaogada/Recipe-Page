@@ -20,7 +20,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 Here's the screenshot of the page created:
 
-![Recipe main page](./recipe-page-main/design/recipe-main-page.png)
+![Recipe main page](./design/recipe-main-page.png)
 
 ### Links
 
