@@ -28,18 +28,21 @@ body {
     background-color: var(--Eggshell);
     font-family: 'Outfit', sans-serif;
     font-size: 16px;
-    margin: 0 auto;
-    align-items: center;
+    margin: 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
 }
 
 /* background */
 
 .container {
-    margin: 50px 50px;
+    margin: 50px;
     text-align: left;
     justify-content: center;
+    display: flex;
+    flex: 1;
 }
 
 .card {
@@ -141,12 +144,16 @@ table {
     border-collapse: collapse;
 }
 
-td {
-    padding: 10px 20px;
+tr {
+    border-bottom: 1px solid var(--Light-grey);
 }
 
-tr:nth-child(1), tr:nth-child(2) {
-    border-bottom: 1px solid --Light-grey;
+tr:last-child {
+    border-bottom: none;
+}
+
+td {
+    padding: 10px 20px;
 }
 
 .cal {
@@ -161,11 +168,16 @@ tr:nth-child(1), tr:nth-child(2) {
     font-size: 11px;
     text-align: center;
     color: var(--Soft-blue);
-    position: absolute;
-    bottom: 0;
+    padding: 5px;
+    margin-top: auto;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
 
+@media (max-width: 375px) {
+    .container {
+        margin: 0px;
+    }
+}
