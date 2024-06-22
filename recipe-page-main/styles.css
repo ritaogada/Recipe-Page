@@ -6,18 +6,6 @@
     box-sizing: border-box;
 }
 
-.attribution {
-    font-size: 11px;
-    text-align: center;
-    color: var(--Soft-blue);
-    position: absolute;
-    bottom: 0;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
-
 /* Colors */
 
 /* Primary */
@@ -67,12 +55,6 @@ body {
     margin: auto;
 }
 
-.preparation-time {
-    background-color: var(--Rose-white);
-    margin: 20px 0;
-    padding: 20px;
-}
-
 /* Headings & Paragraphs */
 
 h1 {
@@ -82,8 +64,108 @@ h1 {
     color: var(--Dark-charcoal);
 }
 
-/* Lists */
-
-ul.a {
-    list-style-type: circle;
+h2 {
+    font-family: 'Young Serif', sans-serif;
+    padding: 10px 0;
+    letter-spacing: 1px;
+    color: var(--Nutmeg);
 }
+
+h3 {
+    color: var(--Dark-Raspberry);
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    color: var(--Wenge-brown);
+}
+
+/* Preparation time */
+.preparation-time {
+    background-color: var(--Rose-white);
+    margin: 15px 0px;
+    padding: 15px;
+}
+
+.prep-time {
+    color: var(--Wenge-brown);
+    padding: 5px;
+    margin: 5px 10px;
+}
+
+.prep {
+    font-weight: bold;
+}
+
+/* Ingredients */
+
+.ingredients {
+    padding: 5px 15px;
+    margin: 5px 5px;
+    color: var(--Wenge-brown);
+}
+
+/*lists*/
+
+li {
+    padding: 5px 15px;
+}
+
+ol li {
+    margin: 5px 20px;
+    color: var(--Nutmeg);
+    font-weight: bold;
+}
+
+.list-text {
+    color: var(--Wenge-brown);
+    font-weight: 400;
+}
+
+.recipe-page {
+    color: var(--Wenge-brown);
+    font-weight: 700;
+}
+
+/*Nutrition*/
+
+.nutrition {
+    padding: 5px 20px;
+    margin: 5px 5px;
+    color: var(--Wenge-brown);
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px 20px;
+}
+
+tr:nth-child(1), tr:nth-child(2) {
+    border-bottom: 1px solid --Light-grey;
+}
+
+.cal {
+    color: var(--Nutmeg);
+    font-weight: bold;
+}
+
+.cont {
+    color: var(--Wenge-brown);
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: var(--Soft-blue);
+    position: absolute;
+    bottom: 0;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
